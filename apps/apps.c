@@ -142,7 +142,7 @@
 #endif
 
 #define NON_MAIN
-#include "../../../openssl_/openssl-OpenSSL_1_0_2n/apps/apps.h"
+#include "apps.h"
 #undef NON_MAIN
 
 #ifdef _WIN32
@@ -3214,7 +3214,7 @@ int app_isdir(const char *name)
 
 /* raw_read|write section */
 #if defined(__VMS)
-# include "../../../openssl_/openssl-OpenSSL_1_0_2n/apps/vms_term_sock.h"
+# include "vms_term_sock.h"
 static int stdin_sock = -1;
 
 static void close_stdin_sock(void)

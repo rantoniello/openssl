@@ -16,9 +16,8 @@
 # include <openssl/x509.h>
 # include <openssl/engine.h>
 # include <openssl/ec.h>
-
-#include "../../../../openssl_/openssl-OpenSSL_1_0_2n/engines/ccgost/gost89.h"
-#include "../../../../openssl_/openssl-OpenSSL_1_0_2n/engines/ccgost/gosthash.h"
+# include "gost89.h"
+# include "gosthash.h"
 /* Control commands */
 # define GOST_PARAM_CRYPT_PARAMS 0
 # define GOST_PARAM_MAX 0

@@ -47,7 +47,7 @@
 #ifndef HEADER_CONSTANT_TIME_LOCL_H
 # define HEADER_CONSTANT_TIME_LOCL_H
 
-#include "../../../openssl_/openssl-OpenSSL_1_0_2n/e_os.h"              /* For 'inline' */
+# include "e_os.h"              /* For 'inline' */
 
 #ifdef __cplusplus
 extern "C" {

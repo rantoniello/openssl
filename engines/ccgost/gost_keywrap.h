@@ -10,7 +10,7 @@
 #ifndef GOST_KEYWRAP_H
 # define GOST_KEYWRAP_H
 # include <string.h>
-#include "../../../../openssl_/openssl-OpenSSL_1_0_2n/engines/ccgost/gost89.h"
+# include "gost89.h"
 /*-
  * Diversifies key using random UserKey Material
  * Implements RFC 4357 p 6.5 key diversification algorithm

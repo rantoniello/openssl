@@ -1,6 +1,5 @@
-
 #define APPMACROS_ONLY
-#include "../../../openssl_/openssl-OpenSSL_1_0_2n/ms/applink.c"
+#include "applink.c"
 
 extern void *OPENSSL_UplinkTable[];
 

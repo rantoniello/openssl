@@ -62,7 +62,7 @@
 # include <stdlib.h>
 # include <string.h>
 
-#include "../../../openssl_/openssl-OpenSSL_1_0_2n/e_os.h"
+# include "e_os.h"
 
 # ifdef OPENSSL_USE_APPLINK
 #  define BIO_FLAGS_UPLINK 0x8000

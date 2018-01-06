@@ -110,7 +110,7 @@
  */
 
 #define NON_MAIN
-#include "../../../openssl_/openssl-OpenSSL_1_0_2n/apps/apps.h"
+#include "apps.h"
 #undef NON_MAIN
 #include <openssl/bio.h>
 #include <openssl/rand.h>

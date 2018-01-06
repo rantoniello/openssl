@@ -8,8 +8,8 @@
  **********************************************************************/
 #ifndef GOSTHASH_H
 # define GOSTHASH_H
+# include "gost89.h"
 # include <stdlib.h>
-#include "../../../../openssl_/openssl-OpenSSL_1_0_2n/engines/ccgost/gost89.h"
 
 # if (defined(_WIN32) || defined(_WIN64)) && !defined(__MINGW32__)
 typedef __int64 ghosthash_len;

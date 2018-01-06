@@ -147,9 +147,9 @@
 # include <string.h>
 # include <errno.h>
 
-# include <openssl/buffer.h>
+# include "e_os.h"
 
-#include "../../../openssl_/openssl-OpenSSL_1_0_2n/e_os.h"
+# include <openssl/buffer.h>
 # ifndef OPENSSL_NO_COMP
 #  include <openssl/comp.h>
 # endif

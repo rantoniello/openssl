@@ -673,7 +673,7 @@ extern int sys_nerr;
 #  define strerror(errnum) \
         (((errnum)<0 || (errnum)>=sys_nerr) ? NULL : sys_errlist[errnum])
   /* Being signed SunOS 4.x memcpy breaks ASN1_OBJECT table lookup */
-#  include "../../openssl_/openssl-OpenSSL_1_0_2n/crypto/o_str.h"
+#  include "crypto/o_str.h"
 #  define memcmp OPENSSL_memcmp
 # endif
 

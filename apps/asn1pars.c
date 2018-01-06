@@ -64,11 +64,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "apps.h"
 #include <openssl/err.h>
 #include <openssl/evp.h>
 #include <openssl/x509.h>
 #include <openssl/pem.h>
-#include "../../../openssl_/openssl-OpenSSL_1_0_2n/apps/apps.h"
 
 /*-
  * -inform arg  - input format - default PEM (DER or PEM)

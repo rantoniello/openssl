@@ -112,13 +112,13 @@
 #ifndef HEADER_APPS_H
 # define HEADER_APPS_H
 
+# include "e_os.h"
+
 # include <openssl/bio.h>
 # include <openssl/x509.h>
 # include <openssl/lhash.h>
 # include <openssl/conf.h>
 # include <openssl/txt_db.h>
-
-#include "../../../openssl_/openssl-OpenSSL_1_0_2n/e_os.h"
 # ifndef OPENSSL_NO_ENGINE
 #  include <openssl/engine.h>
 # endif

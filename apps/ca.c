@@ -87,7 +87,7 @@
 # endif
 #endif
 
-#include "../../../openssl_/openssl-OpenSSL_1_0_2n/apps/apps.h"
+#include "apps.h"
 
 #ifndef W_OK
 # define F_OK 0

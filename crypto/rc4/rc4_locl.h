@@ -1,6 +1,5 @@
 #ifndef HEADER_RC4_LOCL_H
 # define HEADER_RC4_LOCL_H
 # include <openssl/opensslconf.h>
-
-#include "../../../../openssl_/openssl-OpenSSL_1_0_2n/crypto/cryptlib.h"
+# include <cryptlib.h>
 #endif
